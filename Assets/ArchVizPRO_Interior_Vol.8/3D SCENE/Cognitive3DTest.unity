@@ -1366,7 +1366,7 @@ GameObject:
   - component: {fileID: 98138817}
   - component: {fileID: 98138816}
   m_Layer: 5
-  m_Name: ChangeTableButton
+  m_Name: ChangeCupboardButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3353,6 +3353,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1639395450}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &340895244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3405,7 +3417,7 @@ GameObject:
   - component: {fileID: 350503323}
   - component: {fileID: 350503322}
   m_Layer: 5
-  m_Name: Table1
+  m_Name: Cupboard1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3488,7 +3500,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1639395448}
+      - m_Target: {fileID: 1556053812}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3500,13 +3512,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2018081379}
+      - m_Target: {fileID: 739947513}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1556053817}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8695,16 +8719,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sofa_01_4k
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4ccff8f5ed13f384b8f401b4fe256887, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ccff8f5ed13f384b8f401b4fe256887, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 699143470}
   m_SourcePrefab: {fileID: 100100000, guid: 4ccff8f5ed13f384b8f401b4fe256887, type: 3}
 --- !u!4 &699143468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ccff8f5ed13f384b8f401b4fe256887, type: 3}
   m_PrefabInstance: {fileID: 699143467}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &699143469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ccff8f5ed13f384b8f401b4fe256887, type: 3}
+  m_PrefabInstance: {fileID: 699143467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &699143470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699143469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: 6e2dcffa-f98d-4079-924e-392083be67df
+  UpdateRate: 0.1
+  MeshName: Vintage_Sofa
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &699643816
 Transform:
   m_ObjectHideFlags: 0
@@ -8862,7 +8924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb13781a7e9669745bbe0d268fd0ab3f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7eedeac87bd1fe245b0c7de3437a013d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9111,13 +9173,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9638bbd1ba14ee64ab846a0516ee1578, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 739947514}
   m_SourcePrefab: {fileID: 100100000, guid: 9638bbd1ba14ee64ab846a0516ee1578, type: 3}
 --- !u!4 &739947512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9638bbd1ba14ee64ab846a0516ee1578, type: 3}
   m_PrefabInstance: {fileID: 739947511}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &739947513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9638bbd1ba14ee64ab846a0516ee1578, type: 3}
+  m_PrefabInstance: {fileID: 739947511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &739947514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739947513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: 3c08b995-4d29-4e3e-8a69-19c0c80a971f
+  UpdateRate: 0.1
+  MeshName: Vintage_Cupboard
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!65 &743530853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11043,7 +11139,7 @@ GameObject:
   - component: {fileID: 870624888}
   - component: {fileID: 870624887}
   m_Layer: 5
-  m_Name: Table2
+  m_Name: Cupboard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11126,7 +11222,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1639395448}
+      - m_Target: {fileID: 1556053812}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11138,13 +11234,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2018081379}
+      - m_Target: {fileID: 739947513}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 739947514}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14282,7 +14390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb13781a7e9669745bbe0d268fd0ab3f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e3bda4fc5886d3a4eb36dd6f414059ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15471,6 +15579,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2018081380}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17351,7 +17471,7 @@ GameObject:
   - component: {fileID: 1494989398}
   - component: {fileID: 1494989397}
   m_Layer: 5
-  m_Name: ChangeTableButton
+  m_Name: ChangeSofaButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17539,7 +17659,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1240f9f06f4bc8a4490701382a4e63ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f23398c871d6f2498bd794081559110, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18865,6 +18985,7 @@ GameObject:
   - component: {fileID: 1556053816}
   - component: {fileID: 1556053815}
   - component: {fileID: 1556053814}
+  - component: {fileID: 1556053817}
   m_Layer: 0
   m_Name: Bedside_Bedroom
   m_TagString: Untagged
@@ -18961,6 +19082,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556053812}
   m_Mesh: {fileID: 5367570228644172940, guid: 3162dd1c6a68bfe4188992002d7c0827, type: 3}
+--- !u!114 &1556053817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556053812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: d7747e32-0bc3-4c4b-aa53-f56ef841e4f6
+  UpdateRate: 0.1
+  MeshName: Modern_Cupboard
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1 &1558973736
 GameObject:
   m_ObjectHideFlags: 0
@@ -19694,6 +19841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1639395449}
+  - component: {fileID: 1639395450}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -19718,6 +19866,32 @@ Transform:
   - {fileID: 543450652689859572}
   m_Father: {fileID: 927414557}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1639395450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639395448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: e1549dea-bc92-4216-8649-35b27fbfd2da
+  UpdateRate: 0.1
+  MeshName: Modern_Dual_Table
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1 &1648797681
 GameObject:
   m_ObjectHideFlags: 0
@@ -20192,7 +20366,7 @@ GameObject:
   - component: {fileID: 1735909035}
   - component: {fileID: 1735909034}
   m_Layer: 5
-  m_Name: Table2
+  m_Name: Sofa2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20275,7 +20449,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1639395448}
+      - m_Target: {fileID: 1895786634}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 699143469}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -20287,17 +20473,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2018081379}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1895786636}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1735909036
 MonoBehaviour:
@@ -21270,7 +21456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1240f9f06f4bc8a4490701382a4e63ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa434c4e7e98b4049881c6fdb1df2e56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22544,6 +22730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1895786635}
+  - component: {fileID: 1895786636}
   m_Layer: 0
   m_Name: Sofa
   m_TagString: Untagged
@@ -22568,6 +22755,32 @@ Transform:
   - {fileID: 543450653260975456}
   m_Father: {fileID: 680119455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1895786636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895786634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: 31af97c9-3bca-45d1-9534-4c382970cffb
+  UpdateRate: 0.1
+  MeshName: Modern_Sofa
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1 &1904401589
 GameObject:
   m_ObjectHideFlags: 0
@@ -22844,7 +23057,7 @@ GameObject:
   - component: {fileID: 1920763649}
   - component: {fileID: 1920763648}
   m_Layer: 5
-  m_Name: Table1
+  m_Name: Sofa1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22927,7 +23140,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1639395448}
+      - m_Target: {fileID: 1895786634}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 699143469}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -22939,17 +23164,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2018081379}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2134829869}
+        m_TargetAssemblyTypeName: CognitiveVREvents, Assembly-CSharp
+        m_MethodName: SendCognitiveVREvent
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 699143470}
+          m_ObjectArgumentAssemblyTypeName: Cognitive3D.DynamicObject, Cognitive3D
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1920763650
 MonoBehaviour:
@@ -24854,7 +25079,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7610116cba44aac459d2e4c4b040c827, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2018081380}
   m_SourcePrefab: {fileID: 100100000, guid: 7610116cba44aac459d2e4c4b040c827, type: 3}
 --- !u!4 &2018081378 stripped
 Transform:
@@ -24866,6 +25094,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7610116cba44aac459d2e4c4b040c827, type: 3}
   m_PrefabInstance: {fileID: 2018081377}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2018081380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018081379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idSource: 0
+  CustomId: 1deae32d-032f-4163-9007-81c4054a09a5
+  UpdateRate: 0.1
+  MeshName: Table
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  inputType: 0
+  IsController: 0
+  IsRight: 0
+  IdentifyControllerAtRuntime: 1
+  FallbackControllerType: 0
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1 &2036717470
 GameObject:
   m_ObjectHideFlags: 0
@@ -26399,6 +26653,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116163693}
   m_CullTransparentMesh: 1
+--- !u!1 &2134829868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134829870}
+  - component: {fileID: 2134829869}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2134829869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134829868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb27289643b261469e378c3c4692354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2134829870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134829868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.425, y: 0.876, z: 0.39699998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2135936037
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97351,3 +97649,4 @@ SceneRoots:
   - {fileID: 1832883088}
   - {fileID: 381037489}
   - {fileID: 1209049762}
+  - {fileID: 2134829870}

@@ -1,0 +1,269 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2498,
+      "type": "VEC3",
+      "max": [
+        0.23811651766300201,
+        0.23811648786067963,
+        0.52956235408782959
+      ],
+      "min": [
+        -0.23811648786067963,
+        -0.23811645805835724,
+        6.9412640080201982E-09
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2498,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2498,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2498,
+      "type": "VEC2",
+      "max": [
+        0.99511712789535522,
+        0.9951171875
+      ],
+      "min": [
+        0.0048828125,
+        0.016530156135559082
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2498,
+      "type": "VEC2",
+      "max": [
+        0.99511712789535522,
+        0.9951171875
+      ],
+      "min": [
+        0.0048828125,
+        0.016530156135559082
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 10938,
+      "type": "SCALAR",
+      "max": [
+        2497.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Modern_Dual_Table.bin",
+      "byteLength": 161764
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 29976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29976,
+      "byteLength": 29976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59952,
+      "byteLength": 39968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 99920,
+      "byteLength": 19984
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 119904,
+      "byteLength": 19984
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 139888,
+      "byteLength": 21876
+    }
+  ],
+  "images": [
+    {
+      "uri": "1893616670Table_Livingroom_BaseColorMain.png",
+      "name": "Table_Livingroom_BaseColor"
+    },
+    {
+      "uri": "885611228Table_Livingroom_MaskMapMetallicGloss.png",
+      "name": "Table_Livingroom_MaskMap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.25,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "name": "Table_Livingroom"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Table_Livingroom"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Table_Livingroom"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "Table"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        -2.01910711E-06,
+        -0.7071068,
+        -0.7071068,
+        2.01910711E-06
+      ],
+      "scale": [
+        1.3500005,
+        1.34999955,
+        0.7600002
+      ],
+      "translation": [
+        -0.1583,
+        0.0,
+        1.4031
+      ],
+      "name": "Table_Livingroom"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        -0.15394944,
+        -0.690144658,
+        -0.690144658,
+        0.15394944
+      ],
+      "scale": [
+        0.9,
+        0.9000001,
+        1.0
+      ],
+      "translation": [
+        0.032,
+        0.0,
+        1.806
+      ],
+      "name": "Table_Livingroom"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Modern_Dual_Table"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1893616670Table_Livingroom_BaseColorMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "885611228Table_Livingroom_MaskMapMetallicGloss"
+    }
+  ]
+}

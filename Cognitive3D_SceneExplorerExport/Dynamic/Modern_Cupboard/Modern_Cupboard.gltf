@@ -1,0 +1,197 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2341,
+      "type": "VEC3",
+      "max": [
+        0.20696556568145752,
+        0.30000010132789612,
+        0.549530029296875
+      ],
+      "min": [
+        -0.20664936304092407,
+        -0.30000004172325134,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2341,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2341,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99999988079071045,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99999988079071045,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2341,
+      "type": "VEC2",
+      "max": [
+        0.9990234375,
+        0.9990234375
+      ],
+      "min": [
+        0.0009765625,
+        0.0086143016815185547
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2341,
+      "type": "VEC2",
+      "max": [
+        0.78688913583755493,
+        0.9970703125
+      ],
+      "min": [
+        0.0029296875,
+        0.0029296875
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 10809,
+      "type": "SCALAR",
+      "max": [
+        2340.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Modern_Cupboard.bin",
+      "byteLength": 152714
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28092
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28092,
+      "byteLength": 28092
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56184,
+      "byteLength": 37456
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 93640,
+      "byteLength": 18728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 112368,
+      "byteLength": 18728
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131096,
+      "byteLength": 21618
+    }
+  ],
+  "images": [
+    {
+      "uri": "1391423018Bedside_BaseColorMain.png",
+      "name": "Bedside_BaseColor"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Bedside"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Bedside_Bedroom"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Bedside_Bedroom"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Modern_Cupboard"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1391423018Bedside_BaseColorMain"
+    }
+  ]
+}
