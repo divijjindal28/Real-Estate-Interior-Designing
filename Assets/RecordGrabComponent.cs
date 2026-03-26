@@ -26,9 +26,8 @@ public class RecordGrabComponent : MonoBehaviour
         grabbable.WhenPointerEventRaised += OnPointerEvent;
         
         dynamicObject = GetComponent<DynamicObject>();
-        Cognitive3D.CustomEvent customEvent = new Cognitive3D.CustomEvent(eventName);
-        customEvent.Send();
-        new Cognitive3D.CustomEvent("Component Instantiated : " + gameObject.name).SetDynamicObject(dynamicObject).Send();
+        //Cognitive3D.CustomEvent customEvent = new Cognitive3D.CustomEvent(eventName);
+        //customEvent.Send();
 
 
     }
