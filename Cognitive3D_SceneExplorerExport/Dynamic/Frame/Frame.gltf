@@ -1,0 +1,216 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 486,
+      "type": "VEC3",
+      "max": [
+        0.10163345187902451,
+        0.051963996142148972,
+        0.27419045567512512
+      ],
+      "min": [
+        -0.10163339972496033,
+        -0.050020590424537659,
+        6.520003080368042E-05
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 486,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.99991357326507568,
+        0.99991357326507568
+      ],
+      "min": [
+        -1.0,
+        -0.99991357326507568,
+        -0.99991357326507568
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 486,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99922323226928711,
+        0.99964821338653564,
+        1.0
+      ],
+      "min": [
+        -0.99996519088745117,
+        -0.99962520599365234,
+        -0.99980360269546509,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 486,
+      "type": "VEC2",
+      "max": [
+        0.98420649766922,
+        0.99750000238418579
+      ],
+      "min": [
+        0.1805141419172287,
+        0.0097126960754394531
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 486,
+      "type": "VEC2",
+      "max": [
+        0.96089780330657959,
+        0.99609375
+      ],
+      "min": [
+        0.00390625,
+        0.00390625
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 1878,
+      "type": "SCALAR",
+      "max": [
+        485.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Frame.bin",
+      "byteLength": 30972
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5832
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5832,
+      "byteLength": 5832
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11664,
+      "byteLength": 7776
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19440,
+      "byteLength": 3888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23328,
+      "byteLength": 3888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27216,
+      "byteLength": 3756
+    }
+  ],
+  "images": [
+    {
+      "uri": "1070480018Bedside_Props_Bedroom_v1_BaseColorMain.png",
+      "name": "Bedside_Props_Bedroom_v1_BaseColor"
+    },
+    {
+      "uri": "1586995952Bedside_Props_Bedroom_MaskMapMetallicGloss.png",
+      "name": "Bedside_Props_Bedroom_MaskMap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "name": "Bedside_Props_Bedroom_v1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "[BuildingBlock] Frame"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "[BuildingBlock] Frame"
+    },
+    {
+      "name": "[BuildingBlock] HandGrabInstallationRoutine"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Frame"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1070480018Bedside_Props_Bedroom_v1_BaseColorMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "1586995952Bedside_Props_Bedroom_MaskMapMetallicGloss"
+    }
+  ]
+}

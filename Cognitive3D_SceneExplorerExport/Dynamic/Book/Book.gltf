@@ -1,0 +1,203 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 274,
+      "type": "VEC3",
+      "max": [
+        0.12662862241268158,
+        0.1631384938955307,
+        0.035434737801551819
+      ],
+      "min": [
+        1.5258786234539912E-08,
+        -0.00010488889529369771,
+        0.000678317912388593
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 274,
+      "type": "VEC3",
+      "max": [
+        0.99999964237213135,
+        0.9999997615814209,
+        1.0
+      ],
+      "min": [
+        -0.99999964237213135,
+        -0.99999964237213135,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 274,
+      "type": "VEC4",
+      "max": [
+        0.99999964237213135,
+        0.15696285665035248,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.99999964237213135,
+        -0.9999997615814209,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 274,
+      "type": "VEC2",
+      "max": [
+        0.28995174169540405,
+        -32.337177276611328
+      ],
+      "min": [
+        0.059063278138637543,
+        -32.661231994628906
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 274,
+      "type": "VEC2",
+      "max": [
+        0.97999995946884155,
+        0.98000001907348633
+      ],
+      "min": [
+        0.019999999552965164,
+        0.033170700073242188
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 684,
+      "type": "SCALAR",
+      "max": [
+        273.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Book.bin",
+      "byteLength": 16712
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3288,
+      "byteLength": 3288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6576,
+      "byteLength": 4384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10960,
+      "byteLength": 2192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13152,
+      "byteLength": 2192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15344,
+      "byteLength": 1368
+    }
+  ],
+  "images": [
+    {
+      "uri": "967155343Book_Antique_BaseColorMain.png",
+      "name": "Book_Antique_BaseColor"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Books_Antique"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "[BuildingBlock] Book"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "[BuildingBlock] Book"
+    },
+    {
+      "name": "[BuildingBlock] HandGrabInstallationRoutine"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Book"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "967155343Book_Antique_BaseColorMain"
+    }
+  ]
+}

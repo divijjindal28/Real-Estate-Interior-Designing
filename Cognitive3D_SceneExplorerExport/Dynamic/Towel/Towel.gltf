@@ -1,0 +1,216 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1909,
+      "type": "VEC3",
+      "max": [
+        0.010299384593963623,
+        0.087111584842205048,
+        0.0985216498374939
+      ],
+      "min": [
+        -0.074368476867675781,
+        -0.088149845600128174,
+        0.033013194799423218
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1909,
+      "type": "VEC3",
+      "max": [
+        0.99910742044448853,
+        0.99667441844940186,
+        0.99976986646652222
+      ],
+      "min": [
+        -0.99809533357620239,
+        -0.99835771322250366,
+        -0.99937707185745239
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1909,
+      "type": "VEC4",
+      "max": [
+        0.99975305795669556,
+        0.99983549118041992,
+        0.99823737144470215,
+        1.0
+      ],
+      "min": [
+        -0.99995708465576172,
+        -0.99955266714096069,
+        -0.99969196319580078,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1909,
+      "type": "VEC2",
+      "max": [
+        0.99043536186218262,
+        0.9905017614364624
+      ],
+      "min": [
+        0.013810336589813232,
+        0.051516294479370117
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1909,
+      "type": "VEC2",
+      "max": [
+        0.98846817016601563,
+        0.9905017614364624
+      ],
+      "min": [
+        0.011363821104168892,
+        0.2835695743560791
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 9000,
+      "type": "SCALAR",
+      "max": [
+        1908.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Towel.bin",
+      "byteLength": 124904
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22908
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22908,
+      "byteLength": 22908
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45816,
+      "byteLength": 30544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 76360,
+      "byteLength": 15272
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 91632,
+      "byteLength": 15272
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 106904,
+      "byteLength": 18000
+    }
+  ],
+  "images": [
+    {
+      "uri": "1239672850Towel_Rolled_BaseColorMain.png",
+      "name": "Towel_Rolled_BaseColor"
+    },
+    {
+      "uri": "634250324Towel_Rolled_MaskMapMetallicGloss.png",
+      "name": "Towel_Rolled_MaskMap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "name": "Towel_Rolled"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "[BuildingBlock] Towel"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "[BuildingBlock] Towel"
+    },
+    {
+      "name": "[BuildingBlock] HandGrabInstallationRoutine"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Towel"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1239672850Towel_Rolled_BaseColorMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "634250324Towel_Rolled_MaskMapMetallicGloss"
+    }
+  ]
+}

@@ -7,14 +7,14 @@
   },
   "buffers": [
     {
-      "uri": "_buildingblock__cube.bin",
+      "uri": "Props_Kitchen_Sugar.bin",
       "byteLength": 0
     }
   ],
   "scene": 0,
   "scenes": [
     {
-      "name": "_buildingblock__cube"
+      "name": "Props_Kitchen_Sugar"
     }
   ]
 }

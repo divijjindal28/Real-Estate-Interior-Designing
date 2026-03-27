@@ -1,0 +1,203 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 606,
+      "type": "VEC3",
+      "max": [
+        0.089394524693489075,
+        0.048781920224428177,
+        0.12519234418869019
+      ],
+      "min": [
+        -0.048126734793186188,
+        -0.048781920224428177,
+        0.00030519347637891769
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 606,
+      "type": "VEC3",
+      "max": [
+        0.99942195415496826,
+        0.99992811679840088,
+        0.99227941036224365
+      ],
+      "min": [
+        -0.99562150239944458,
+        -0.99952399730682373,
+        -0.99846279621124268
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 606,
+      "type": "VEC4",
+      "max": [
+        0.99966371059417725,
+        0.99988985061645508,
+        0.99815922975540161,
+        1.0
+      ],
+      "min": [
+        -0.99990415573120117,
+        -0.99989807605743408,
+        -0.99852895736694336,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 606,
+      "type": "VEC2",
+      "max": [
+        0.766495943069458,
+        0.91779160499572754
+      ],
+      "min": [
+        0.14011473953723907,
+        0.00505906343460083
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 606,
+      "type": "VEC2",
+      "max": [
+        0.99511712789535522,
+        0.9951171875
+      ],
+      "min": [
+        0.0048828125,
+        0.3149406909942627
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 3084,
+      "type": "SCALAR",
+      "max": [
+        605.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Coffee.bin",
+      "byteLength": 40104
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7272
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7272,
+      "byteLength": 7272
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14544,
+      "byteLength": 9696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24240,
+      "byteLength": 4848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29088,
+      "byteLength": 4848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33936,
+      "byteLength": 6168
+    }
+  ],
+  "images": [
+    {
+      "uri": "139819882Props_Kitchen_BaseColorMain.png",
+      "name": "Props_Kitchen_BaseColor"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Props_Kitchen_SimpleLit"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "[BuildingBlock] Cube"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "[BuildingBlock] Cube"
+    },
+    {
+      "name": "[BuildingBlock] HandGrabInstallationRoutine"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Coffee"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "139819882Props_Kitchen_BaseColorMain"
+    }
+  ]
+}

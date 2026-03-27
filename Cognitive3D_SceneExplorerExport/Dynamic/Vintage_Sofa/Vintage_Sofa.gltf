@@ -2,19 +2,189 @@
   "extensionsUsed": [
     "KHR_lights_punctual"
   ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2708,
+      "type": "VEC3",
+      "max": [
+        0.0079335598275065422,
+        0.0036120363511145115,
+        0.0079592801630496979
+      ],
+      "min": [
+        -0.00778111582621932,
+        -0.0029681089799851179,
+        -5.8699038163467776E-06
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2708,
+      "type": "VEC3",
+      "max": [
+        0.99999940395355225,
+        1.0,
+        0.99999988079071045
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2708,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.999941349029541,
+        0.999868631362915,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999998927116394,
+        -0.99978882074356079,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2708,
+      "type": "VEC2",
+      "max": [
+        0.99524426460266113,
+        0.99960440397262573
+      ],
+      "min": [
+        -0.0012085814960300922,
+        0.0018042922019958496
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 12303,
+      "type": "SCALAR",
+      "max": [
+        2707.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
   "asset": {
     "version": "2.0"
   },
   "buffers": [
     {
       "uri": "Vintage_Sofa.bin",
-      "byteLength": 0
+      "byteLength": 154590
     }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32496
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32496,
+      "byteLength": 32496
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64992,
+      "byteLength": 43328
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 108320,
+      "byteLength": 21664
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 129984,
+      "byteLength": 24606
+    }
+  ],
+  "images": [
+    {
+      "uri": "798342341Sofa_01_diff_4kMain.png",
+      "name": "Sofa_01_diff_4k"
+    },
+    {
+      "uri": "196015377Sofa_01_nor_gl_4kBump.png",
+      "name": "Sofa_01_nor_gl_4k"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "name": "Sofa_01"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Sofa_01_4k"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Sofa_01_4k"
+    }
+  ],
+  "samplers": [
+    {}
   ],
   "scene": 0,
   "scenes": [
     {
+      "nodes": [
+        0
+      ],
       "name": "Vintage_Sofa"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "798342341Sofa_01_diff_4kMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "196015377Sofa_01_nor_gl_4kBump"
     }
   ]
 }

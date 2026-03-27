@@ -2,19 +2,189 @@
   "extensionsUsed": [
     "KHR_lights_punctual"
   ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3184,
+      "type": "VEC3",
+      "max": [
+        0.0065065035596489906,
+        0.0065065077506005764,
+        0.0048963199369609356
+      ],
+      "min": [
+        -0.00650650542229414,
+        -0.0065065077506005764,
+        -1.3774335457128473E-05
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3184,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3184,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3184,
+      "type": "VEC2",
+      "max": [
+        0.99730271100997925,
+        0.99732917547225952
+      ],
+      "min": [
+        0.0026720708701759577,
+        0.004662930965423584
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 12132,
+      "type": "SCALAR",
+      "max": [
+        3183.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
   "asset": {
     "version": "2.0"
   },
   "buffers": [
     {
       "uri": "Table.bin",
-      "byteLength": 0
+      "byteLength": 177096
     }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 38208
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38208,
+      "byteLength": 38208
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 76416,
+      "byteLength": 50944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 127360,
+      "byteLength": 25472
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 152832,
+      "byteLength": 24264
+    }
+  ],
+  "images": [
+    {
+      "uri": "2129338107coffee_table_round_01_diff_4kMain.png",
+      "name": "coffee_table_round_01_diff_4k"
+    },
+    {
+      "uri": "1647281135coffee_table_round_01_nor_gl_4kBump.png",
+      "name": "coffee_table_round_01_nor_gl_4k"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "name": "coffee_table_round_01"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "coffee_table_round_01_4k"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "coffee_table_round_01_4k"
+    }
+  ],
+  "samplers": [
+    {}
   ],
   "scene": 0,
   "scenes": [
     {
+      "nodes": [
+        0
+      ],
       "name": "Table"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "2129338107coffee_table_round_01_diff_4kMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "1647281135coffee_table_round_01_nor_gl_4kBump"
     }
   ]
 }

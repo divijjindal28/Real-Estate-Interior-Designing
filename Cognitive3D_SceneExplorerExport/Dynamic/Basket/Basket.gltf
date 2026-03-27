@@ -1,0 +1,203 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC3",
+      "max": [
+        0.18354630470275879,
+        0.18408867716789246,
+        0.415235310792923
+      ],
+      "min": [
+        -0.18304471671581268,
+        -0.18362036347389221,
+        -5.51808625459671E-08
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC3",
+      "max": [
+        0.99988675117492676,
+        0.99987590312957764,
+        0.9880213737487793
+      ],
+      "min": [
+        -0.99908196926116943,
+        -0.99939596652984619,
+        -0.95562827587127686
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC4",
+      "max": [
+        0.99981361627578735,
+        0.99990320205688477,
+        0.29677638411521912,
+        1.0
+      ],
+      "min": [
+        -0.9998786449432373,
+        -0.9990849494934082,
+        -0.29791536927223206,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC2",
+      "max": [
+        0.99067020416259766,
+        0.99006432294845581
+      ],
+      "min": [
+        0.0079677505418658257,
+        0.07260596752166748
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 768,
+      "type": "VEC2",
+      "max": [
+        0.27564626932144165,
+        0.98963183164596558
+      ],
+      "min": [
+        0.0095515511929988861,
+        0.007035374641418457
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 3876,
+      "type": "SCALAR",
+      "max": [
+        767.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Basket.bin",
+      "byteLength": 50760
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9216,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18432,
+      "byteLength": 12288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30720,
+      "byteLength": 6144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36864,
+      "byteLength": 6144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43008,
+      "byteLength": 7752
+    }
+  ],
+  "images": [
+    {
+      "uri": "1647647228Basket_BaseColorMain.png",
+      "name": "Basket_BaseColor"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Basket"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "[BuildingBlock] Basket Bedroom"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "[BuildingBlock] Basket Bedroom"
+    },
+    {
+      "name": "[BuildingBlock] HandGrabInstallationRoutine"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Basket"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1647647228Basket_BaseColorMain"
+    }
+  ]
+}

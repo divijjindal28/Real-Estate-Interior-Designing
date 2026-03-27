@@ -8,10 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class RecordGrabComponent : MonoBehaviour
 {
-    private GrabInteractable grabInteractable;
-    private InteractableUnityEventWrapper interactableUnityEventWrapper;
     private DynamicObject dynamicObject;
-    public string eventName = "Player Sneezed ";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
