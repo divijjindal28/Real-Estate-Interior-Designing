@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 78da0b5fc3a6e8a469d047d71187e7ef
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D FX/LightShafts-master/ColorFilter.shader
+  uploadId: 231397

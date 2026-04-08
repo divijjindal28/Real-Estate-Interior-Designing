@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 35f989501f30d194aaa9f5cb0699f69f
+timeCreated: 1462834311
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D MODEL/FURNITURE/KITCHEN/Materials/03
+    - Default.mat
+  uploadId: 231397

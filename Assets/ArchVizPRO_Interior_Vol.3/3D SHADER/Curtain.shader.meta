@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8715c1cefec6f894db550ce1cbbcd362
+timeCreated: 1488007369
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D SHADER/Curtain.shader
+  uploadId: 231397

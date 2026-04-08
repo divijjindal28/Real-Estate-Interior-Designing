@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8affdff7ba47d892cc734baac9ac71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CustomTrackingSpace: {fileID: 0}
 --- !u!114 &5852395208753694948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +100,6 @@ MonoBehaviour:
   _removeHands: 0
   CustomTrackingSpace: {fileID: 0}
   <MaskMeshFilters>k__BackingField: []
-  _cameraRig: {fileID: 0}
 --- !u!1001 &1005997282865879430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108,6 +108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5489388973515671547}
     m_Modifications:
+    - target: {fileID: 4413962190259742372, guid: 11ba9ebd601515d439083b4f859acd38, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 4498192679931648085, guid: 11ba9ebd601515d439083b4f859acd38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.40088958

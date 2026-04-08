@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _stateAuthorityChangeErrorCorrectionDelta: 0
   SyncScale: 0
   SyncParent: 0
   _autoAOIOverride: 1
@@ -105,6 +106,7 @@ MonoBehaviour:
   - {fileID: 8625031831588501359}
   - {fileID: 5511116885931429169}
   - {fileID: 8121865265856832837}
+  ForceRemoteRenderTimeframe: 0
 --- !u!1 &1104571682353472768
 GameObject:
   m_ObjectHideFlags: 0

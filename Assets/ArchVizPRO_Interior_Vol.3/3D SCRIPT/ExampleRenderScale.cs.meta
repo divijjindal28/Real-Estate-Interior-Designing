@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9eed000afa6c68841920420b7af6cd5e
+timeCreated: 1460753572
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D SCRIPT/ExampleRenderScale.cs
+  uploadId: 231397

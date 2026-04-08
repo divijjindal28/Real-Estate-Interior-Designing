@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 029619d4e1b7b3d4998cfdc5c27c82e7
+timeCreated: 1488011065
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Refraction: {fileID: 2800000, guid: bbab0a6f7bae9cf42bf057d8ee2755f6, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D SHADER/Glass.shader
+  uploadId: 231397

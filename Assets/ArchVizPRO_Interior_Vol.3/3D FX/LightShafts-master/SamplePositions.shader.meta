@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 328e45223da3ee24a9b9bc2020d76aa4
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D FX/LightShafts-master/SamplePositions.shader
+  uploadId: 231397

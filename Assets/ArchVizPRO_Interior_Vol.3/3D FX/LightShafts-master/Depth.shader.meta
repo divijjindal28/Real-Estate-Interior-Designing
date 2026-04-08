@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7e188a1e08ecfae4785bed08b1013219
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D FX/LightShafts-master/Depth.shader
+  uploadId: 231397

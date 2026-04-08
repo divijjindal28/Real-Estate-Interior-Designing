@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 170533b360a07f945b98b5d9d11bff19
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62337
+  packageName: ArchVizPRO Interior Vol.3
+  packageVersion: 1.2
+  assetPath: Assets/ArchVizPRO_Interior_Vol.3/3D FX/LightShafts-master/Coord.shader
+  uploadId: 231397
