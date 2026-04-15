@@ -5,18 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/InteriorDesigning.unity
+    guid: 39f7e4557a1cd7e41aa018ba89305f3d
   - enabled: 0
-    path: Assets/MRMotifs/InstantContentPlacement/Scenes/InstantContentPlacement.unity
-    guid: 94e5d96fe23133a4c88c19940426946a
+    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/InitScene.unity
+    guid: 65aef8f2557214c4ebb67ee621602d5e
   - enabled: 0
     path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Flat-DayLight.unity
     guid: 112ad445ad7664d46b4bf48ab3d6f383
   - enabled: 0
-    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Cognitive3DTest.unity
-    guid: a88bc92e383621b4684f8793c93e59c3
-  - enabled: 1
     path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Flat_NightLight.unity
     guid: f06647ad101abdf4f9501e22fd21e46e
+  - enabled: 0
+    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Flat_NEW_LIVING_ROOM.unity
+    guid: d3820bd058ed38647ac872d073d2bbd9
+  - enabled: 0
+    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Flat_NEW_BEDROOM.unity
+    guid: 2dc318bfabb64b14fbd22ba0efdf01b3
+  - enabled: 0
+    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Flat_NEW_BATHROOM.unity
+    guid: 4b614d49aabc02a43b4b93c9e6bed9dd
+  - enabled: 0
+    path: Assets/ArchVizPRO_Interior_Vol.8/3D SCENE/Cognitive3DTest.unity
+    guid: a88bc92e383621b4684f8793c93e59c3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: df73bb192c2e9544e9d50b3eb1bb855c, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1a29827f94e6b5c42896485f3e308f80, type: 2}
