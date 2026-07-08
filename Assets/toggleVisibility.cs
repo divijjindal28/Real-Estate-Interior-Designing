@@ -12,7 +12,7 @@ public class toggleVisibility : MonoBehaviour
     {
         gameObject.SetActive(!gameObject.activeSelf);
         if (gameObject.activeSelf) {
-            cognitiveVREvents.SendCognitiveVREvent(gameObject.GetComponent<Cognitive3D.DynamicObject>());
+            //cognitiveVREvents.SendCognitiveVREvent(gameObject.GetComponent<Cognitive3D.DynamicObject>());
         }
     }
 
